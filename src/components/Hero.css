@@ -1,0 +1,165 @@
+ /* for semibold [poppins] font-family: 'Poppins', sans-serif;
+for thin [poppins] font-family: 'Poppins', sans-serif; */
+
+/*Main two columns of the hero section*/
+.Hero_firstcol{
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.Hero_secondcol{
+    margin-left: 150px;
+    margin-right: 20px;
+    margin-top: 110px;
+}
+/*All the paragraphs of the first column of Hero section*/
+.Hero_first{
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300 !important;
+}
+.Hero_second{
+    font-size: 112px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+.Hero_initial{
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+}
+ .Hero_third{
+    font-size: 112px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+.Hero_fourth{
+    font-size: 112px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 100;
+}
+.button{
+    font-size: 18px;
+}
+.Hero_herosvg{
+    height: auto;
+    width: 100%;
+}
+.Hero_arrowsvg{
+    margin-left: 15px;
+}
+
+
+/*For extra small devices*/
+@media(max-width: 576px){
+    .Hero_firstcol{
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .Hero_secondcol{
+        margin-left: 30px;
+        margin-right: 20px;
+        margin-top: 84px;
+    }
+    .Hero_first{
+        margin-top: 80px;
+        font-size: 28px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300 !important;
+    }
+    .Hero_second{
+        font-size: 40px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 100;
+    }
+    .button{
+        font-size:13px;
+        margin-left: -18px;
+        margin-top: 10px;
+        color: #2541B2;
+    }
+    .Hero_arrowsvg{
+        margin-left:10px;
+        height:auto;
+        width:10%;
+        color: #2541B2;
+    }
+}
+ 
+/*For small and medium devices*/
+@media (min-width: 576px) and (max-width: 800px){
+    .Hero_firstcol{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .Hero_secondcol{
+        margin-left: 30px;
+        margin-right: 20px;
+        margin-top: 84px;
+    }
+    .Hero_first{
+        margin-top: 40px;
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300 !important;
+    }
+    .Hero_second{
+        font-size: 50px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 100;
+    }
+    .button{
+        font-size:18px;
+        margin-left: -11px;
+        margin-top: 10px;
+        color: #2541B2;
+    }
+    .Hero_arrowsvg{
+        margin-left:9px;
+        height:auto;
+        width:10%;
+        color: #2541B2;
+    }
+    .Hero_herosvg{
+        height: auto;
+        width: 88%;
+    }
+}
+
+/*For medium sized and above*/
+@media(min-width: 800px) and (max-width: 1200px){
+    .Hero_firstcol{
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+    .Hero_secondcol{
+        margin-left: 60px;
+        margin-right: 10px;
+        margin-top: 50px;
+    }
+    .Hero_first{
+        margin-top: 50px;
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300 !important;
+    }
+    .Hero_second{
+        font-size: 60px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 100;
+    }
+    .button{
+        font-size:22px;
+        margin-left: -9px;
+        margin-top: 10px;
+        color: #2541B2;
+    }
+    .Hero_arrowsvg{
+        margin-left:9px;
+        height:auto;
+        width:10%;
+        color: #2541B2;
+    }
+    .Hero_herosvg{
+        height: auto;
+        width: 95%;
+    }
+}

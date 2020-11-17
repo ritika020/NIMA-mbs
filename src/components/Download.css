@@ -1,0 +1,295 @@
+
+/* .ml-5{
+    align-items: center;
+    width: 100%;
+    padding-left: 8rem;
+  } */
+  
+  .row{
+    margin-left: 0 !important;
+
+
+}
+  .caro{
+      padding-left:15rem;
+      background-color:#F8FBFE;
+    }
+  .react-multi-carousel-item {
+      margin-right: 0px;
+  }
+  
+  .card {
+    position: relative;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    /* border: 1px solid black; */
+    margin-top: 4rem;
+    border-radius: 7px;
+    line-height: 1;
+    height: 12.5rem;
+    margin-bottom: 2%;
+    width: 18rem;
+   
+  }
+  
+  .card-img-div{
+  align-items: center;
+  margin-left: 7rem;
+  }
+  
+  .card-image {
+    position: absolute;
+    width: 4rem;
+    height: auto;
+    top: -2rem;
+    /* left: 30%; */
+  }
+  .card-body {
+    padding: 30px;
+  }
+  .card-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .total-downloads{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 1.5rem;
+  }
+  
+  .download-button{
+    font-size: 17px;
+    font-weight: 400;
+  }
+  
+  .hr-tag{
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+  
+  
+  
+  /* MOBILE */
+  @media screen and (max-width: 576px) {
+    .caro {
+      padding-left: 3rem;
+  } 
+    
+  
+   
+    .card {
+      position: relative;
+      /* border: 1px solid black; */
+      margin-top: 4rem;
+      border-radius: 7px;
+      line-height: 1;
+      height: 10rem;
+      margin-bottom: 2%;
+      width: 12rem;
+    }
+  
+    .card-img-div{
+      align-items: center;
+      /* margin-left: 50rem !important; */
+      }
+      
+      .card-image {
+        position: absolute;
+        width: 3rem;
+        height: auto;
+        top: -1.5rem;
+        margin-left: -2.4rem;
+        /* left: 30%; */
+      }
+      .card-body {
+        padding: 12px;
+      }
+      .card-title {
+        font-weight: 600;
+        font-size: 14px;
+        color: black;
+        line-height: 1.2rem;
+        margin-top: 1rem;
+      }
+      
+      .total-downloads{
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 1.1rem;
+      }
+      
+      .download-button{
+        font-size: 13px;
+        font-weight: 400;
+      }
+      
+      .hr-tag{
+        margin-top: 0.5rem;
+        width: 90% !important;
+      }
+
+      .react-multiple-carousel__arrow--left {
+        left: calc(0% + 0px);
+        display: none;
+      }
+      .react-multiple-carousel__arrow--right {
+        left: calc(0% + 0px);
+        display: none;
+      }
+  }
+  
+  /* FOR TABLETS */
+  @media(min-width: 576px) and (max-width: 800px){
+  
+    /* .ml-5{
+     
+      width: 100%;
+      padding-left: 0.5rem !important; 
+    }
+   */
+
+   .caro {
+    padding-left: 1rem;
+} 
+
+    .react-multi-carousel-item {
+      margin-right: 5px;
+      /* width: 100% !important; */
+      }
+  
+      .card {
+        position: relative;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        /* border: 1px solid black; */
+        margin-top: 4rem;
+        border-radius: 7px;
+        line-height: 1;
+        height: 10rem;
+        margin-bottom: 2%;
+        width: 12rem; 
+      } 
+      
+      .card-img-div{
+        align-items: center;
+        margin-left: 4.3rem !important; 
+        }
+        
+        .card-image {
+          position: absolute;
+          width: 3rem;
+          height: auto;
+          top: -1.5rem;
+          /* margin-left: 1.6rem; */
+          /* left: 30%; */
+        }
+        .card-body {
+          padding: 12px;
+        }
+        .card-title {
+          font-weight: 600;
+          font-size: 14px;
+          color: black;
+          line-height: 1.2rem;
+          margin-top: 1rem;
+        }
+        
+        .total-downloads{
+          font-size: 12px;
+          font-weight: 400;
+          margin-top: 1.1rem;
+        }
+        
+        .download-button{
+          font-size: 13px;
+          font-weight: 400;
+        }
+        
+        .hr-tag{
+          margin-top: 0.5rem;
+          width: 90% !important;
+        }
+        .react-multiple-carousel__arrow--left {
+            left: calc(0% + 0px);
+            display: none;
+          }
+          .react-multiple-carousel__arrow--right {
+            left: calc(0% + 0px);
+            display: none;
+          }
+  }
+  
+  /* For big tablets */
+  @media(min-width: 800px) and (max-width: 1024px){
+  
+    /* .ml-5{
+      align-items: center;
+      width: 100%;
+      padding-left: 5rem !important; 
+    } */
+
+    .caro {
+      padding-left: 5rem;
+  } 
+  
+    .react-multi-carousel-item {
+      margin-right: -40px;
+      }
+  
+      .card {
+        position: relative;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        /* border: 1px solid black; */
+        margin-top: 4rem;
+        border-radius: 7px;
+        line-height: 1;
+        height: 10rem;
+        margin-bottom: 2%;
+        width: 12rem; 
+      } 
+      
+      .card-img-div{
+        align-items: center;
+        margin-left: 4.3rem !important; 
+        }
+        
+        .card-image {
+          position: absolute;
+          width: 2.8rem;
+          height: auto;
+          top: -1.5rem;
+          /* margin-left: 1.6rem; */
+          /* left: 30%; */
+        }
+        .card-body {
+          padding: 12px;
+        }
+        .card-title {
+          font-weight: 600;
+          font-size: 14px;
+          color: black;
+          line-height: 1.2rem;
+          margin-top: 1.1rem ;
+        }
+        
+        .total-downloads{
+          font-size: 12px;
+          font-weight: 400;
+          margin-top: 1.1rem;
+        }
+        
+        .download-button{
+          font-size: 13px;
+          font-weight: 400;
+        }
+        
+        .hr-tag{
+          margin-top: 0.5rem;
+          width: 90% !important;
+        }
+  }
