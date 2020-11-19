@@ -133,7 +133,7 @@ class Slider extends React.Component {
     render()
     {return(  <>
         <div>
-        <div className="Slider_heading">BOARD MEMBERS</div>
+        <div className="Slider_bmembers">BOARD MEMBERS</div>
         <div className="row">
         <div className="col-md-9 offset-md-3">
         <Carousel className="Slider_caro"
@@ -206,7 +206,7 @@ class Slider extends React.Component {
     </Carousel>
     </div>
     </div> */}
-    <div className="Slider_heading">MEMBERS</div>
+    <div className="Slider_members">MEMBERS</div>
         <div className="row">
         <div className="col-md-9 offset-md-3">
         <Carousel className="Slider_caro"
@@ -244,7 +244,7 @@ class Slider extends React.Component {
     </div>
     </div>
     
-     <div className="Slider_heading">Ex. Officio MEMBERS</div>
+     <div className="Slider_members">Ex. Officio MEMBERS</div>
         <div className="row">
         <div className="col-md-9 offset-md-3">
         <Carousel className="Slider_caro"

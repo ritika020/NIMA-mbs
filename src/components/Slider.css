@@ -2,7 +2,7 @@
   position: relative;
   max-width: 100%;
 }
-.Slider_heading{
+.Slider_bmembers{
   width: 550px;
   height: 51px;
   font-family: "Poppins";
@@ -10,10 +10,23 @@
  font-weight: 600;
  font-size: 35px;
  line-height: 52px;
-  margin-left:123px;
+  margin-left:120px;
  color: #2541B2;
  margin-top: 80px;
- margin-bottom:51px;
+ margin-bottom:20px;
+}
+.Slider_members{
+  width: 550px;
+  height: 51px;
+  font-family: "Poppins";
+  font-style: normal;
+ font-weight: 600;
+ font-size: 35px;
+ line-height: 52px;
+  margin-left:120px;
+ color: #2541B2;
+ margin-top: 40px;
+ margin-bottom:50px;
 }
 
 .row{
@@ -24,7 +37,7 @@
 .Slider_picture{
    width: 240px;
    height: 325px;
-   border-radius: 14px;
+   border-radius: 7px;
 }
 .Slider_names{
   position: absolute;
@@ -40,8 +53,8 @@
   font-size: 25px;
   font-weight: 600;
   padding-left: 10px;
-  border-bottom-left-radius: 14px;
-  border-bottom-right-radius: 14px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
   padding-top:8px;
 }
 .Slider_fname{
@@ -73,7 +86,7 @@
    width: 18rem;
 }
 .react-multi-carousel-list {
-    margin-top: 3rem;
+    margin-top:30px;
     /* margin-right: 140px; */
     display: flex;
     align-items: center;
@@ -87,13 +100,13 @@
 
   .react-multi-carousel-item {
     width: max-content !important;
-    margin-right: 4rem;
+    margin-right: 45px;
   }
 
 
   /*MOBILE VIEW*/
   @media only screen and (max-width: 576px) {
-    .Slider_heading{
+    .Slider_bmembers{
       width: 220px;
       height: 29px;
       font-family: "Poppins";
@@ -103,6 +116,21 @@
      line-height: 28px;
       margin-left:35px;
      color: #2541B2;
+     margin-top: 90px;
+     margin-bottom:0px;
+    }
+    .Slider_members{
+      width: 220px;
+      height: 29px;
+      font-family: "Poppins";
+      font-style: normal;
+     font-weight: 600;
+     font-size: 19px;
+     line-height: 28px;
+      margin-left:35px;
+     color: #2541B2;
+     margin-bottom:0px;
+     margin-top:0px;
     }
     .Slider_mobileview {
       display: none;
@@ -136,8 +164,9 @@
      font-size: 12px;
      line-height:22px;
      padding-left: 10px;
-     border-bottom-left-radius: 10px;
-     border-bottom-right-radius: 10px;
+     border-bottom-left-radius: 7px;
+     border-bottom-right-radius: 7px;
+     padding-top:1px;
   }
   .Slider_fname{
       margin-left: 0px;
@@ -162,7 +191,7 @@
       font-family: 'Poppins',sans-serif;
       font-weight: 400;
       font-size: 10px;
-      margin-bottom: 40px;
+      margin-bottom: 0px;
       margin-top:-10px !important;
   }
   .react-multi-carousel-item {
@@ -180,39 +209,58 @@
 }
   }
   
-  /*TABLET VIEW*/
-  @media (min-width: 576px) and (max-width: 1024px) {
-    .caro {
-      margin-left: 5%;
+  /*For small and medium devices*/
+  @media(min-width: 576px) and (max-width: 800px) {
+    .Slider_bmembers{
+      width: 220px;
+      height: 29px;
+      font-family: "Poppins";
+      font-style: normal;
+     font-weight: 600;
+     font-size: 23px;
+     line-height: 28px;
+      margin-left:50px;
+     color: #2541B2;
+     margin-top: 90px;
+     margin-bottom:0px;
+    }
+    .Slider_members{
+      width: 300px;
+      height: 29px;
+      font-family: "Poppins";
+      font-style: normal;
+     font-weight: 600;
+     font-size: 23px;
+     line-height: 28px;
+      margin-left:50px;
+     color: #2541B2;
+     margin-bottom:0px;
+     margin-top:0px;
     }
     .Slider_photo{
       position: relative;
       max-width: 100%;
    }
-   
-   .Slider_car-row{
-       padding-left: 6rem;
-   }
-
   .Slider_picture{
-      width: 121px;
-      height: 164px;
-      border-radius: 10px;
+      width: 141px;
+      height: 184px;
+      border-radius: 7px;
   }
   .Slider_names{
      position: absolute;
      bottom:-1rem;
      text-align:left;
      color: #fff;
-     width: 121px;
+     width: 141px;
      background-color: black;
      opacity: .7;
      font-family: 'Poppins', sans-serif;
      height: 20px;
      font-size: 14px;
      padding-left: 10px;
-     border-bottom-left-radius: 10px;
-     border-bottom-right-radius: 10px;
+     border-bottom-left-radius: 7px;
+     border-bottom-right-radius: 7px;
+     padding-top: 0px;
   }
   .Slider_fname{
       margin-left: 10px;
@@ -246,11 +294,11 @@
       align-items: center;
       overflow: hidden;
       position: relative;
-      padding-left: 130px;
+      padding-left: 10px;
   }
     .react-multi-carousel-item {
       width: max-content !important;
-      margin-right: 2rem;
+      margin-right: -80px;
     }
   }
 
@@ -261,3 +309,9 @@
     top: 0px;
     background: rgba(255, 68, 0, 0.17);
   }
+
+
+   /*For medium and large devices*/
+   @media(min-width: 800px) and (max-width: 1024px){
+
+   }
