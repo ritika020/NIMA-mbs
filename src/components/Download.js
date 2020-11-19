@@ -1,59 +1,20 @@
 import React from "react";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './Download.css';
 import Application from '../svg/Application.svg'
 import Information from '../svg/Information.svg'
-const responsive = {
-  superLargeDesktop: {
-    // the naming can be any, depends on you.
-    breakpoint: { max: 4000, min: 3000 },
-    items: 3,
-  },
-  desktop: {
-    breakpoint: { max: 3000, min: 1024 },
-    items: 4,
-  },
-  tablet: {
-    breakpoint: { max: 1024, min: 464 },
-    items: 3,
-  },
-  mobile: {
-    breakpoint: { max: 464, min: 0 },
-    items: 1.6,
-  },
-};
+
 class Download extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
+
   render() {
     return (
+    
+      <div className="Download_container mobile-card-container">
+      
+      <div className="row text-center flex-nowrap flex-sm-wrap Download_row_styling">  
 
-   
-        
-        // <div className="caro">
-      <Carousel
-        swipeable={true}
-        draggable={true}
-        showDots={false}
-        responsive={responsive}
-        ssr={true} // means to render carousel on server-side.
-        //   infinite={true}
-        // autoPlay={this.props.deviceType !== "mobile" ? true : false}
-        // autoPlaySpeed={1000}
-        keyBoardControl={true}
-        // customTransition="all .5"
-        // transitionDuration={500}
-        containerClass="carousel-container"
-        //removeArrowOnDeviceType={["tablet", "mobile"]}
-        deviceType={this.props.deviceType}
-        itemClass="carousel-item-padding-20-px"
-        className="caro"
-      >
-        
-          <div class="card">
+          <div className=" col-10 col-sm-3 Download_mx-sm-auto card">
+            <div>
             <div className="card-img-div">
               <img className="card-image" src={Information} alt="id" /> 
             </div>
@@ -64,9 +25,11 @@ class Download extends React.Component {
             <hr className="hr-tag"/>
             <a href="#" className="download-button"> DOWNLOAD</a>
             </div>
+            </div>
           </div>
         
-          <div class="card">
+          <div className=" col-10 col-sm-3 Download_mx-sm-auto card">
+          <div>
           <div className="card-img-div">
             <img className="card-image" src={Application} alt="id" /> 
           </div>  
@@ -78,8 +41,10 @@ class Download extends React.Component {
             <a href="#" className="download-button"> DOWNLOAD</a>
             </div>
           </div>
+          </div>
 
-        <div class="card">
+        <div className=" col-10 col-sm-3 Download_mx-sm-auto card">
+          <div>
           <div className="card-img-div">
             <img className="card-image" src={Information} alt="id" /> 
           </div>
@@ -93,12 +58,11 @@ class Download extends React.Component {
             <a href="#" className="download-button"> DOWNLOAD</a> 
           </div>
         </div>
-          
-
-      </Carousel>
-    //   </div>
-    
-     
+        </div>
+        </div>  
+        </div>
+        
+      
     );
   }
 }

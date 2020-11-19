@@ -1,21 +1,37 @@
  /* for semibold [poppins] font-family: 'Poppins', sans-serif;
 for thin [poppins] font-family: 'Poppins', sans-serif; */
 
+/* just introduced this, make changes in media queries accordingly */
+.Hero_container{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
 /*Main two columns of the hero section*/
+
 .Hero_firstcol{
-    margin-left: 90px;
-    margin-top: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-top: 142px;
 }
 .Hero_secondcol{
-    margin-left: 150px;
-    margin-right: 20px;
-    margin-top: 110px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-top: 208px;
+    padding-left: 108px;
 }
 /*All the paragraphs of the first column of Hero section*/
+/* padding left added, make changes in media queries */
 .Hero_first{
     font-size: 32px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300 !important;
+    padding-left: 5px;
 }
 .Hero_second{
     font-size: 112px;
@@ -39,9 +55,13 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
 .button{
     font-size: 18px;
 }
+
+/* for the svg icon on the right side */
+/* just added margin-left and margin-top , need to add those in media queries */
 .Hero_herosvg{
     height: auto;
-    width: 100%;
+    width: 50rem;
+    margin-top: 1rem;
 }
 .Hero_arrowsvg{
     margin-left: 15px;
@@ -50,20 +70,30 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
 
 /*For extra small devices*/
 @media(max-width: 576px){
+    .Hero_container{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 15px;
+        padding-right: 5px;
+    }
+    
     .Hero_firstcol{
-        margin-left: 30px;
-        margin-top: 20px;
+        margin-left: 0px;
+        margin-top: 10px;
+        padding-top:70px;
     }
     .Hero_secondcol{
-        margin-left: 30px;
+        margin-left: 0px;
         margin-right: 20px;
-        margin-top: 84px;
+        margin-top: -7rem;
+        padding-left: 0px;
     }
     .Hero_first{
         margin-top: 80px;
         font-size: 28px;
         font-family: 'Poppins', sans-serif;
         font-weight: 300 !important;
+        padding-left:1px;
     }
     .Hero_second{
         font-size: 40px;
@@ -75,6 +105,10 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
         margin-left: -18px;
         margin-top: 10px;
         color: #2541B2;
+    }
+    .Hero_herosvg{
+        height:166.94px;
+        width:294.46px;
     }
     .Hero_arrowsvg{
         margin-left:10px;

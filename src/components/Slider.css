@@ -1,183 +1,263 @@
 .Slider_photo{
+  position: relative;
+  max-width: 100%;
+}
+.Slider_heading{
+  width: 550px;
+  height: 51px;
+  font-family: "Poppins";
+  font-style: normal;
+ font-weight: 600;
+ font-size: 35px;
+ line-height: 52px;
+  margin-left:123px;
+ color: #2541B2;
+ margin-top: 80px;
+ margin-bottom:51px;
+}
+
+.row{
+   margin: 0 !important;
+}
+
+
+.Slider_picture{
+   width: 240px;
+   height: 325px;
+   border-radius: 14px;
+}
+.Slider_names{
+  position: absolute;
+  bottom:-1rem;
+  text-align:left;
+  color: #ffffff;
+  width: 240px;
+  background-color: black;
+  opacity: .7;
+  line-height:22px;
+  font-family: 'Poppins', sans-serif;
+  height: 40px;
+  font-size: 25px;
+  font-weight: 600;
+  padding-left: 10px;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  padding-top:8px;
+}
+.Slider_fname{
+   margin-left: 10px;
+   margin-top: 12px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   font-size: 20px;
+   line-height:1.7rem;
+   color: blue;
+   width: 18rem;
+}
+.Slider_address{
+   margin-left: 10px;
+   font-family: 'Poppins', sans-serif;
+   font-weight:400;
+   font-size: 15px;
+   line-height: 1.5rem;
+   width: 15rem;
+   margin-top: 10px;
+}
+.Slider_phone{
+   margin-left: 10px;
+   font-family: 'Poppins',sans-serif;
+   font-weight: 400;
+   font-size: 15px;
+   margin-top: 10px;
+   margin-bottom: 2rem;
+   width: 18rem;
+}
+.react-multi-carousel-list {
+    margin-top: 3rem;
+    /* margin-right: 140px; */
+    display: flex;
+    align-items: center;
+    overflow: scroll !important;
     position: relative;
-    max-width: 100%;
- }
- 
- .row{
-     margin: 0 !important;
- }
- 
- 
- .Slider_picture{
-     width: 18rem;
-     height: 350px;
-     border-radius: 20px;
- }
- .Slider_names{
-    position: absolute;
-    bottom:-1rem;
-    text-align:left;
-    color: #fff;
-    width: 18rem;
-    background-color: black;
-    opacity: .7;
-    font-family: 'Poppins', sans-serif;
-    height: 40px;
-    font-size: 25px;
-    font-weight: 450;
-    padding-left: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
- }
- .Slider_fname{
-     margin-left: 10px;
-     margin-top: 12px;
+  }
+  ::-webkit-scrollbar {
+    width: 0px; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+  }
+
+  .react-multi-carousel-item {
+    width: max-content !important;
+    margin-right: 4rem;
+  }
+
+
+  /*MOBILE VIEW*/
+  @media only screen and (max-width: 576px) {
+    .Slider_heading{
+      width: 220px;
+      height: 29px;
+      font-family: "Poppins";
+      font-style: normal;
+     font-weight: 600;
+     font-size: 19px;
+     line-height: 28px;
+      margin-left:35px;
+     color: #2541B2;
+    }
+    .Slider_mobileview {
+      display: none;
+    }
+    .Slider_photo{
+      position: relative;
+      max-width: 100%;
+   }
+   
+   /* .Slider_car-row{
+       padding-left: 2rem;
+   } */
+
+  .Slider_picture{
+      width: 121px;
+      height: 164px;
+      border-radius: 7px;
+      margin-bottom: 5px;
+  }
+  .Slider_names{
+     position: absolute;
+     bottom:-0.8rem;
+     text-align:left;
+     color: #fff;
+     width: 121px;
+     background-color: black;
+     opacity: .7;
      font-family: 'Poppins', sans-serif;
-     font-weight: 700;
-     font-size: 20px;
-     line-height:1.7rem;
-     color: blue;
-     width: 18rem;
- }
- .Slider_address{
-     margin-left: 10px;
+     font-weight:600;
+     height: 24.42px;
+     font-size: 12px;
+     line-height:22px;
+     padding-left: 10px;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+  }
+  .Slider_fname{
+      margin-left: 0px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size: 11px;
+      line-height:15px;
+      color: blue;
+      width: 122px;
+  }
+  .Slider_address{
+      margin-left: 0px;
+      font-family: 'Poppins', sans-serif;
+      font-weight:400;
+      font-size: 10px;
+      line-height:15px;
+      width: 121px;
+      margin-top:-10px !important;
+  }
+  .Slider_phone{
+      margin-left: 0px;
+      font-family: 'Poppins',sans-serif;
+      font-weight: 400;
+      font-size: 10px;
+      margin-bottom: 40px;
+      margin-top:-10px !important;
+  }
+  .react-multi-carousel-item {
+    width: max-content !important;
+    margin-right: -8rem;
+    
+  }
+  .react-multi-carousel-list {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    padding-left: 154px;
+    margin-top: 30px;
+}
+  }
+  
+  /*TABLET VIEW*/
+  @media (min-width: 576px) and (max-width: 1024px) {
+    .caro {
+      margin-left: 5%;
+    }
+    .Slider_photo{
+      position: relative;
+      max-width: 100%;
+   }
+   
+   .Slider_car-row{
+       padding-left: 6rem;
+   }
+
+  .Slider_picture{
+      width: 121px;
+      height: 164px;
+      border-radius: 10px;
+  }
+  .Slider_names{
+     position: absolute;
+     bottom:-1rem;
+     text-align:left;
+     color: #fff;
+     width: 121px;
+     background-color: black;
+     opacity: .7;
      font-family: 'Poppins', sans-serif;
-     font-weight:400;
-     font-size: 15px;
-     line-height: 1.5rem;
-     width: 15rem;
-     margin-top: 10px;
- }
- .Slider_phone{
-     margin-left: 10px;
-     font-family: 'Poppins',sans-serif;
-     font-weight: 400;
-     font-size: 15px;
-     margin-top: 10px;
-     margin-bottom: 2rem;
-     width: 18rem;
- }
- 
- /* FOR MOBILE */
- @media screen and (max-width: 576px) {
- 
-     .Slider_photo{
-         position: relative;
-         max-width: 100%;
-      }
-      
-      .Slider_car-row{
-          padding-left: 2rem;
-      }
- 
-     .Slider_picture{
-         width: 121px;
-         height: 164px;
-         border-radius: 10px;
-     }
-     .Slider_names{
-        position: absolute;
-        bottom:-1rem;
-        text-align:left;
-        color: #fff;
-        width: 121px;
-        background-color: black;
-        opacity: .7;
-        font-family: 'Poppins', sans-serif;
-        height: 20px;
-        font-size: 14px;
-        padding-left: 10px;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-     }
-     .Slider_fname{
-         margin-left: 10px;
-         margin-top: 10px;
-         font-family: 'Poppins', sans-serif;
-         font-weight: 700;
-         font-size: 11px;
-         line-height:0.8rem;
-         color: blue;
-         width: 121px;
-     }
-     .Slider_address{
-         margin-left: 10px;
-         font-family: 'Poppins', sans-serif;
-         font-weight:400;
-         font-size: 10px;
-         line-height: 0.8rem;
-         width: 121px;
-         margin-top: 10px;
-     }
-     .Slider_phone{
-         margin-left: 10px;
-         font-family: 'Poppins',sans-serif;
-         font-weight: 400;
-         font-size: 10px;
-         margin-top: 10px;
-         margin-bottom: 2rem;
-     }
- }
- 
- /* FOR TABLETS */
- @media(min-width: 576px) and (max-width: 1024px){
-     .Slider_photo{
-         position: relative;
-         max-width: 100%;
-      }
-      
-      .Slider_car-row{
-          padding-left: 6rem;
-      }
- 
-     .Slider_picture{
-         width: 121px;
-         height: 164px;
-         border-radius: 10px;
-     }
-     .Slider_names{
-        position: absolute;
-        bottom:-1rem;
-        text-align:left;
-        color: #fff;
-        width: 121px;
-        background-color: black;
-        opacity: .7;
-        font-family: 'Poppins', sans-serif;
-        height: 20px;
-        font-size: 14px;
-        padding-left: 10px;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-     }
-     .Slider_fname{
-         margin-left: 10px;
-         margin-top: 10px;
-         font-family: 'Poppins', sans-serif;
-         font-weight: 700;
-         font-size: 11px;
-         line-height:0.8rem;
-         color: blue;
-         width: 121px;
-     }
-     .Slider_address{
-         margin-left: 10px;
-         font-family: 'Poppins', sans-serif;
-         font-weight:400;
-         font-size: 10px;
-         line-height: 0.8rem;
-         width: 121px;
-         margin-top: 10px;
-     }
-     .Slider_phone{
-         margin-left: 10px;
-         font-family: 'Poppins',sans-serif;
-         font-weight: 400;
-         font-size: 10px;
-         margin-top: 10px;
-         margin-bottom: 2rem;
-     }
- }
- 
- 
- 
+     height: 20px;
+     font-size: 14px;
+     padding-left: 10px;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+  }
+  .Slider_fname{
+      margin-left: 10px;
+      margin-top: 10px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size: 11px;
+      line-height:0.8rem;
+      color: blue;
+      width: 121px;
+  }
+  .Slider_address{
+      margin-left: 10px;
+      font-family: 'Poppins', sans-serif;
+      font-weight:400;
+      font-size: 10px;
+      line-height: 0.8rem;
+      width: 121px;
+      margin-top: 10px;
+  }
+  .Slider_phone{
+      margin-left: 10px;
+      font-family: 'Poppins',sans-serif;
+      font-weight: 400;
+      font-size: 10px;
+      margin-top: 10px;
+      margin-bottom: 2rem;
+  }
+    .react-multi-carousel-list {
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      position: relative;
+      padding-left: 130px;
+  }
+    .react-multi-carousel-item {
+      width: max-content !important;
+      margin-right: 2rem;
+    }
+  }
+
+  .Slider_mobileview {
+    
+    height: 819px;
+    left: 0px;
+    top: 0px;
+    background: rgba(255, 68, 0, 0.17);
+  }
