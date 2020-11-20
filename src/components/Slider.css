@@ -103,6 +103,14 @@
     margin-right: 45px;
   }
 
+  .react-multiple-carousel__arrow--right {
+    right: calc(4% + 1px);
+    top: calc(32% + 0px);
+}
+.react-multiple-carousel__arrow--left {
+  left: calc(4% + 1px);
+  top: calc(32% + 0px);
+}
 
   /*MOBILE VIEW*/
   @media only screen and (max-width: 576px) {
@@ -310,7 +318,6 @@
     background: rgba(255, 68, 0, 0.17);
   }
 
-
    /*For medium and large devices*/
    @media(min-width: 800px) and (max-width: 1024px){
     .Slider_photo{
@@ -417,4 +424,12 @@
         width: max-content !important;
         margin-right: 45px;
       }
+        .react-multiple-carousel__arrow--right {
+    right: calc(3% + 1px);
+    top: calc(30% + 0px);
+}
+.react-multiple-carousel__arrow--left {
+  left: calc(3% + 1px);
+  top: calc(30% + 0px);
+}
    }
