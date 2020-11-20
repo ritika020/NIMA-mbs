@@ -85,8 +85,8 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
     .Hero_secondcol{
         margin-left: 0px;
         margin-right: 20px;
-        margin-top: -7rem;
         padding-left: 0px;
+        padding-top: 0px;
     }
     .Hero_first{
         margin-top: 80px;
@@ -108,7 +108,9 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
     }
     .Hero_herosvg{
         height:166.94px;
-        width:294.46px;
+        width:354.46px;
+        margin-left: -0.9rem;
+        margin-top: 84px; 
     }
     .Hero_arrowsvg{
         margin-left:10px;
@@ -128,6 +130,7 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
         margin-left: 30px;
         margin-right: 20px;
         margin-top: 84px;
+        padding-top: 0px;
     }
     .Hero_first{
         margin-top: 40px;

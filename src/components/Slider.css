@@ -75,6 +75,7 @@
    line-height: 1.5rem;
    width: 15rem;
    margin-top: 10px;
+   color:#000000;
 }
 .Slider_phone{
    margin-left: 10px;
@@ -84,6 +85,7 @@
    margin-top: 10px;
    margin-bottom: 2rem;
    width: 18rem;
+   color:#000000;
 }
 .react-multi-carousel-list {
     margin-top:30px;
@@ -138,7 +140,7 @@
       margin-left:35px;
      color: #2541B2;
      margin-bottom:0px;
-     margin-top:0px;
+     margin-top:40px;
     }
     .Slider_mobileview {
       display: none;
@@ -157,6 +159,7 @@
       height: 164px;
       border-radius: 14px;
       margin-bottom: 5px;
+      
   }
   .Slider_names{
      position: absolute;
@@ -164,7 +167,7 @@
      text-align:left;
      color: #fff;
      width: 121px;
-     background-color: black;
+     background-color:#000000;
      opacity: .7;
      font-family: 'Poppins', sans-serif;
      font-weight:600;
@@ -188,11 +191,12 @@
   .Slider_address{
       margin-left: 0px;
       font-family: 'Poppins', sans-serif;
-      font-weight:400;
+      font-weight:500;
       font-size: 10px;
       line-height:15px;
       width: 121px;
       margin-top:-10px !important;
+      color:#000000;
   }
   .Slider_phone{
       margin-left: 0px;
@@ -201,6 +205,7 @@
       font-size: 10px;
       margin-bottom: 0px;
       margin-top:-10px !important;
+      color:#000000;
   }
   .react-multi-carousel-item {
     width: max-content !important;
@@ -260,7 +265,7 @@
      text-align:left;
      color: #fff;
      width: 141px;
-     background-color: black;
+     background-color:#000000;
      opacity: .7;
      font-family: 'Poppins', sans-serif;
      height: 20px;
@@ -288,6 +293,7 @@
       line-height: 0.8rem;
       width: 121px;
       margin-top: 10px;
+      color:#000000;
   }
   .Slider_phone{
       margin-left: 10px;
@@ -296,6 +302,7 @@
       font-size: 10px;
       margin-top: 10px;
       margin-bottom: 2rem;
+      color:#000000;
   }
     .react-multi-carousel-list {
       display: flex;
@@ -367,7 +374,7 @@
       text-align:left;
       color: #ffffff;
       width: 240px;
-      background-color: black;
+      background-color:#000000;
       opacity: .7;
       line-height:22px;
       font-family: 'Poppins', sans-serif;
@@ -397,6 +404,7 @@
        line-height: 1.5rem;
        width: 15rem;
        margin-top: 10px;
+       color:#000000;
     }
     .Slider_phone{
        margin-left: 10px;
@@ -406,6 +414,7 @@
        margin-top: 10px;
        margin-bottom: 2rem;
        width: 18rem;
+       color:#000000;
     }
     .react-multi-carousel-list {
         margin-top:30px;
