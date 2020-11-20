@@ -37,7 +37,7 @@
 .Slider_picture{
    width: 240px;
    height: 325px;
-   border-radius: 7px;
+   border-radius: 14px;
 }
 .Slider_names{
   position: absolute;
@@ -53,8 +53,8 @@
   font-size: 25px;
   font-weight: 600;
   padding-left: 10px;
-  border-bottom-left-radius: 7px;
-  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
   padding-top:8px;
 }
 .Slider_fname{
@@ -65,7 +65,7 @@
    font-size: 20px;
    line-height:1.7rem;
    color: blue;
-   width: 18rem;
+   width: 15rem;
 }
 .Slider_address{
    margin-left: 10px;
@@ -147,7 +147,7 @@
   .Slider_picture{
       width: 121px;
       height: 164px;
-      border-radius: 7px;
+      border-radius: 14px;
       margin-bottom: 5px;
   }
   .Slider_names{
@@ -164,8 +164,8 @@
      font-size: 12px;
      line-height:22px;
      padding-left: 10px;
-     border-bottom-left-radius: 7px;
-     border-bottom-right-radius: 7px;
+     border-bottom-left-radius: 14px;
+     border-bottom-right-radius: 14px;
      padding-top:1px;
   }
   .Slider_fname{
@@ -244,7 +244,7 @@
   .Slider_picture{
       width: 141px;
       height: 184px;
-      border-radius: 7px;
+      border-radius: 14px;
   }
   .Slider_names{
      position: absolute;
@@ -258,8 +258,8 @@
      height: 20px;
      font-size: 14px;
      padding-left: 10px;
-     border-bottom-left-radius: 7px;
-     border-bottom-right-radius: 7px;
+     border-bottom-left-radius: 14px;
+     border-bottom-right-radius: 14px;
      padding-top: 0px;
   }
   .Slider_fname{
@@ -313,5 +313,108 @@
 
    /*For medium and large devices*/
    @media(min-width: 800px) and (max-width: 1024px){
-
+    .Slider_photo{
+      position: relative;
+      max-width: 100%;
+    }
+    .Slider_bmembers{
+      width: 550px;
+      height: 51px;
+      font-family: "Poppins";
+      font-style: normal;
+     font-weight: 600;
+     font-size: 35px;
+     line-height: 52px;
+      margin-left:120px;
+     color: #2541B2;
+     margin-top: 80px;
+     margin-bottom:20px;
+    }
+    .Slider_members{
+      width: 550px;
+      height: 51px;
+      font-family: "Poppins";
+      font-style: normal;
+     font-weight: 600;
+     font-size: 35px;
+     line-height: 52px;
+      margin-left:120px;
+     color: #2541B2;
+     margin-top: 40px;
+     margin-bottom:50px;
+    }
+    
+    .row{
+       margin: 0 !important;
+    }
+    
+    
+    .Slider_picture{
+       width: 240px;
+       height: 325px;
+       border-radius: 14px;
+    }
+    .Slider_names{
+      position: absolute;
+      bottom:-1rem;
+      text-align:left;
+      color: #ffffff;
+      width: 240px;
+      background-color: black;
+      opacity: .7;
+      line-height:22px;
+      font-family: 'Poppins', sans-serif;
+      height: 40px;
+      font-size: 25px;
+      font-weight: 600;
+      padding-left: 10px;
+      border-bottom-left-radius: 14px;
+      border-bottom-right-radius: 14px;
+      padding-top:8px;
+    }
+    .Slider_fname{
+       margin-left: 10px;
+       margin-top: 12px;
+       font-family: 'Poppins', sans-serif;
+       font-weight: 700;
+       font-size: 20px;
+       line-height:1.7rem;
+       color: blue;
+       width: 15rem;
+    }
+    .Slider_address{
+       margin-left: 10px;
+       font-family: 'Poppins', sans-serif;
+       font-weight:400;
+       font-size: 15px;
+       line-height: 1.5rem;
+       width: 15rem;
+       margin-top: 10px;
+    }
+    .Slider_phone{
+       margin-left: 10px;
+       font-family: 'Poppins',sans-serif;
+       font-weight: 400;
+       font-size: 15px;
+       margin-top: 10px;
+       margin-bottom: 2rem;
+       width: 18rem;
+    }
+    .react-multi-carousel-list {
+        margin-top:30px;
+        /* margin-right: 140px; */
+        display: flex;
+        align-items: center;
+        overflow: scroll !important;
+        position: relative;
+      }
+      ::-webkit-scrollbar {
+        width: 0px; /* Remove scrollbar space */
+        background: transparent; /* Optional: just make scrollbar invisible */
+      }
+    
+      .react-multi-carousel-item {
+        width: max-content !important;
+        margin-right: 45px;
+      }
    }
