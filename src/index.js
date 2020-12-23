@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import Hero from './components/Hero.js';
 import Download from './components/Download.js';
 import Slider from "./components/Slider.js";
+import Search from "./components/Search.js";
 
 ReactDOM.render(
   <React.StrictMode>
