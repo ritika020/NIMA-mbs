@@ -5,6 +5,7 @@ import Hero from './components/Hero.js';
 import Download from './components/Download.js';
 import Slider from "./components/Slider.js";
 import Search from "./components/Search.js";
+import Footer from "./components/Footer.js";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -12,6 +13,7 @@ ReactDOM.render(
     <Download />
     <Slider />
     <Search />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

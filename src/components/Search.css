@@ -2,7 +2,7 @@
     padding-top: 114px;
     padding-bottom: 95px;
     font-family: "Poppins", sans-serif;
-    background: url("../images/image.svg"), #f6f6f6;
+    background: url("../images/Wave.svg"), #f6f6f6;
     background-repeat: no-repeat;
   }
   /*desktops*/
@@ -14,6 +14,7 @@
       font-size: 35px;
       line-height: 15px;
       color: #2541b2;
+      padding-top: 0px;
     }
   
     .Search__row {
@@ -76,6 +77,7 @@
       /* padding-left: 0 !important; */
       border-radius: 10px;
     }
+    
     .Search__table td {
       border: 1px solid #cdcdcd;
       padding-bottom: 18px;
@@ -104,7 +106,7 @@
     }
   }
   
-  /*bigger tablets*/
+  /*for medium and large devices*/
   @media (min-width: 800px) and (max-width: 1200px) {
     .Search__txthead {
       font-family: "Poppins", sans-serif;
@@ -113,6 +115,7 @@
       font-size: 25px;
       line-height: 15px;
       color: #2541b2;
+      padding-top:0px;
     }
   
     .Search__row {
@@ -175,6 +178,7 @@
       /* padding-left: 0 !important; */
       border-radius: 10px;
     }
+    
     .Search__table td {
       border: 1px solid #cdcdcd;
       padding-bottom: 18px;
@@ -204,8 +208,8 @@
     }
   }
   
-  /*tablet*/
-  @media only screen and (min-width: 481px) and (max-width: 800px) {
+  /*For small and medium devices*/
+  @media (min-width: 576px) and (max-width: 800px) {
     .Search__txthead {
       font-family: "Poppins", sans-serif;
       font-style: normal;
@@ -213,6 +217,7 @@
       font-size: 20px;
       line-height: 15px;
       color: #2541b2;
+      padding-top:0px;
     }
   
     .Search__row {
@@ -275,6 +280,7 @@
       /* padding-left: 0 !important; */
       border-radius: 10px;
     }
+    
     .Search__table td {
       border: 1px solid #cdcdcd;
       padding-bottom: 18px;
@@ -304,43 +310,57 @@
     }
   }
   
-  /*mobile*/
-  @media screen and (max-width: 480px) {
+  /*extra small devices*/
+  @media screen and (max-width: 576px) {
+    .Search__MainDiv {
+      padding-top: 25px;
+      padding-bottom: 95px;
+      font-family: "Poppins", sans-serif;
+      background: url("../images/Wave.svg"), #f6f6f6;
+      background-repeat: no-repeat;
+      
+    }
     .Search__txthead {
       font-family: "Poppins", sans-serif;
       font-style: normal;
       font-weight: 600;
-      font-size: 35px;
+      font-size: 19px;
       line-height: 15px;
       color: #2541b2;
+      width:254px;
     }
   
     .Search__row {
-      margin-left: 4rem !important;
+      margin-left:30px !important;
     }
   
     .Search__para {
-      margin-top: 30px;
+      margin-top: 40px;
       font-family: "Poppins", sans-serif;
       font-style: normal;
       font-weight: normal;
-      font-size: 15px;
-      line-height: 22px;
+      font-size: 14px;
+      line-height: 21px;
       color: #656565;
-      margin-bottom: 77px;
+      margin-bottom: 46px;
       margin-right: 150px;
+      width: 315px;
     }
   
     .Search__select {
-      width: 400px;
-      height: 53px;
+      height:53px;
       background: #ffffff;
       box-shadow: 0px 0px 9px rgba(219, 219, 219, 0.25);
       border-radius: 5px;
+      margin-left: 0px;
     }
+    select.form-control:not([size]):not([multiple]) {
+      height: calc(3.15rem + 2px);
+      width: 300px;
+  }
   
     .Search__btn {
-      width: 400px;
+      width: 300px;
       height: 53px;
       background: #2541b2;
       box-shadow: 0px 0px 9px rgba(219, 219, 219, 0.25);
@@ -352,8 +372,9 @@
       font-size: 20px;
       line-height: 25px;
       color: #ffffff;
+      margin-bottom: 42px;
     }
-  
+   
     .Search__select {
       -webkit-appearance: none;
       -moz-appearance: none;
@@ -378,10 +399,10 @@
     .Search__table td {
       border: 1px solid #cdcdcd;
       padding-bottom: 18px;
-      padding-right: 95px;
+      padding-right: 61px;
     }
     .Search__title {
-      padding-left: 42px;
+      padding-left: 16px;
       padding-top: 18px;
     }
     .Search__data {

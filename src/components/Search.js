@@ -1,6 +1,6 @@
-import React, { Compnent, Component } from "react";
+import React, {Component} from "react";
 import "./Search.css";
-import wave from "../images/image.svg";
+
 class Search extends Component {
   constructor(props) {
     super(props);
@@ -87,7 +87,7 @@ class Search extends Component {
     return (
       <div className="form-container Search__MainDiv">
         <div className="row Search__row  align-items-end">
-          <div className="col-md-5" id="form-card">
+          <div className="col-md-5 col-sm-12" id="form-card">
             <h5 className="Search__txthead">SEARCH NIMA MBS DETAILS</h5>
             <p className="Search__para">
               Welcome to the official website of the NATIONAL INTEGRATED MEDICAL
@@ -136,7 +136,7 @@ class Search extends Component {
               </button>
             </form>
           </div>
-          <div className="col-md-7  ml-0 pl-0">
+          <div className="col-md-7 col-sm-12 ml-0 pl-0">
             <div className="desktop">
               <table className="Search__table">
                 <tr>

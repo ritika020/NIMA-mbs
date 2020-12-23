@@ -1,0 +1,93 @@
+/*For devices above 1200px*/
+.Footer__heading{
+   margin-left: 65px;
+   margin-top: 95px;
+   font-size:35px;
+   font-family: 'Poppins';
+   font-weight:600;
+   line-height:15px;
+   color: #000000;
+   font-style: normal;
+   margin-bottom: 37px;
+}
+.Footer__subheading{
+   margin-left: 65px;
+   font-family:'Poppins';
+   font-weight:normal;
+   font-style:normal;
+   font-size: 22px;
+   line-height: 35px;
+   color: #000000;
+   margin-bottom: 200px;
+}
+/*For small devices*/
+@media(max-width: 576px){
+    .Footer__heading{
+       margin-left: 30px;
+       font-size:19px;
+       font-weight: 600;
+       line-height: 28px;
+       color:#000000;
+       font-style:normal;
+       font-family: 'Poppins';
+       margin-top:34px;
+       margin-bottom: 5px;
+    }
+    .Footer__subheading{
+        margin-left: 30px;
+        line-height: 22px;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: normal;
+        color: #000000;
+        margin-bottom: 200px;
+    }
+}
+
+/*For small and medium devices*/
+@media(min-width:576px) and (max-width: 800px){
+    .Footer__heading{
+        margin-left: 30px;
+        font-size:23px;
+        font-weight: 600;
+        line-height: 30px;
+        color:#000000;
+        font-style:normal;
+        font-family: 'Poppins';
+        margin-top:34px;
+        margin-bottom: 5px;
+    }
+    .Footer__subheading{
+        margin-left: 30px;
+        line-height: 26px;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: normal;
+        color: #000000;
+        margin-bottom: 200px;
+    }
+}
+
+/*For medium and large devices*/
+@media(min-width:800px) and (max-width:1200px){
+    .Footer__heading{
+        margin-left: 30px;
+        font-size:35px;
+        font-weight: 600;
+        line-height: 40px;
+        color:#000000;
+        font-style:normal;
+        font-family: 'Poppins';
+        margin-top:34px;
+        margin-bottom: 5px;
+    }
+    .Footer__subheading{
+        margin-left: 30px;
+        line-height: 30px;
+        font-size: 23px;
+        font-style: normal;
+        font-weight: normal;
+        color: #000000;
+        margin-bottom: 200px;
+    }
+}

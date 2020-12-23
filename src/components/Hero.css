@@ -127,7 +127,7 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
         margin-top: 20px;
     }
     .Hero_secondcol{
-        margin-left: 30px;
+        margin-left: 0px;
         margin-right: 20px;
         margin-top: 84px;
         padding-top: 0px;
@@ -157,7 +157,7 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
     }
     .Hero_herosvg{
         height: auto;
-        width: 88%;
+        width: 110%;
     }
 }
 
@@ -168,7 +168,7 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
         margin-top: 20px;
     }
     .Hero_secondcol{
-        margin-left: 60px;
+        margin-left: 40px;
         margin-right: 10px;
         margin-top: 50px;
     }
@@ -197,6 +197,6 @@ for thin [poppins] font-family: 'Poppins', sans-serif; */
     }
     .Hero_herosvg{
         height: auto;
-        width: 95%;
+        width: 100%;
     }
 }

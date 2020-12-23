@@ -176,25 +176,25 @@
 } 
 
     .react-multi-carousel-item {
-      margin-right: 5px;
+      margin-right: 10px;
       }
   
       .card {
         position: relative;
-        margin-left: 10px !important;
-        margin-right: 10px !important;
+        margin-left: 20px !important;
+        margin-right:20px !important;
         /* border: 1px solid black; */
-        margin-top: 4rem;
+        margin-top: 5rem;
         border-radius: 7px;
         line-height: 1;
-        height: 10rem;
+        height: 11rem;
         margin-bottom: 2%;
-        width: 350px; 
+        
       } 
       
       .card-img-div{
         align-items: center;
-        margin-left: 4.3rem !important; 
+        margin-left: 4rem !important; 
         }
         
         .card-image {
@@ -210,16 +210,16 @@
         }
         .card-title {
           font-weight: 600;
-          font-size: 14px;
+          font-size: 13px;
           color:#000000;
-          line-height: 1.2rem;
-          margin-top: 1rem;
+          line-height: 1rem;
+          margin-top: 1.3rem;
         }
         
         .total-downloads{
           font-size: 12px;
           font-weight: 400;
-          margin-top: 1.1rem;
+          margin-top: 1rem;
           color:#AEAEAE;
         }
         
@@ -234,7 +234,7 @@
           width: 90% !important;
         }
         .react-multiple-carousel__arrow--left {
-            left: calc(0% + 0px);
+            left: calc(1% + 0px);
             display: none;
           }
           .react-multiple-carousel__arrow--right {
