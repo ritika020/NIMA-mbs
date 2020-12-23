@@ -10,6 +10,7 @@ ReactDOM.render(
     <Hero />
     <Download />
     <Slider />
+    <Search />
   </React.StrictMode>,
   document.getElementById('root')
 );
