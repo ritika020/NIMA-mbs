@@ -58,10 +58,14 @@ class Search extends Component {
       }
       return 0;
     });
-    console.log(temp[0]);
-    this.setState({
-      currentDoctor: temp[0],
-    });
+    if(temp[0] === undefined){
+      alert("Doctor not found, select some other value !")
+    }else{
+      this.setState({
+        currentDoctor: temp[0],
+      });
+    }
+   
   };
   filterBranch = () => {
     let distinctBranch = [];
