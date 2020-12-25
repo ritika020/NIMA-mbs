@@ -135,7 +135,7 @@ class Slider extends React.Component {
         <div>
         <div className="Slider_bmembers">BOARD MEMBERS</div>
         <div className="row">
-        <div className="col-md-9 offset-md-3">
+        <div className="col-md-9 offset-md-3 Slider__column">
         <Carousel className="Slider_caro"
         swipeable={true}
         draggable={false}

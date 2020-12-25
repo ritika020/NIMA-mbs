@@ -2,7 +2,10 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Download.css';
 import Application from '../svg/Application.svg'
-import Information from '../svg/Information.svg'
+import Information from '../svg/Information.svg';
+import image3 from "../images/image3.jpeg";
+import image4 from "../images/image4.jpeg";
+import image5 from "../images/image5.jpeg";
 
 class Download extends React.Component {
 
@@ -23,7 +26,7 @@ class Download extends React.Component {
             Basic Information</div>
             <div className="total-downloads">Total 1143 Downloads</div>
             <hr className="hr-tag"/>
-            <a href="#" className="download-button"> DOWNLOAD</a>
+            <a href={image3} className="download-button" download="first.jpeg"> DOWNLOAD</a>
             </div>
             </div>
           </div>
@@ -38,7 +41,7 @@ class Download extends React.Component {
             Application Form</div>
             <div className="total-downloads">Total 1143 Downloads</div> 
             <hr className="hr-tag"/>
-            <a href="#" className="download-button"> DOWNLOAD</a>
+            <a href={image4} className="download-button" download="second.jpeg"> DOWNLOAD</a>
             </div>
           </div>
           </div>
@@ -55,7 +58,7 @@ class Download extends React.Component {
             </div>
             <div className="total-downloads">Total 1143 Downloads</div>
              <hr className="hr-tag"/>
-            <a href="#" className="download-button"> DOWNLOAD</a> 
+            <a href={image5} className="download-button" download="third.jpeg"> DOWNLOAD</a> 
           </div>
         </div>
         </div>

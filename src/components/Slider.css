@@ -2,6 +2,9 @@
   position: relative;
   max-width: 100%;
 }
+.Slider_column{
+  padding-right: 0px !important;
+}
 .Slider_bmembers{
   width: 550px;
   height: 51px;
