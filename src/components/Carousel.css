@@ -1,0 +1,13 @@
+#card1 {
+}
+#card2 {
+  width: 50%;
+  /* transform: ; */
+  transform: scale(0.7) translate(-100px, 0);
+}
+
+#card3 {
+  width: 50%;
+  /* transform: scale(0.5); */
+  transform: scale(0.5) translate(-300px, 0);
+}

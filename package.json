@@ -12,6 +12,10 @@
     "react-dom": "^17.0.1",
     "react-multi-carousel": "^2.5.5",
     "react-scripts": "4.0.0",
+    "react-spring": "^8.0.27",
+    "react-spring-3d-carousel": "^1.2.0",
+    "uuid": "^8.3.2",
+    "uuidv4": "^6.2.6",
     "web-vitals": "^0.2.4"
   },
   "scripts": {

@@ -5,10 +5,12 @@ import Download from "./components/Download.js";
 import Slider from "./components/Slider.js";
 import Search from "./components/Search.js";
 import Footer from "./components/Footer.js";
+import CarouselClass from "./components/Carousel.js";
 
 ReactDOM.render(
   <React.StrictMode>
     <Hero />
+    <CarouselClass />
     <Download />
     <Slider />
     <Search />
